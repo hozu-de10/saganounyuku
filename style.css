@@ -1,0 +1,124 @@
+﻿body {
+            margin: 0;
+            background: #e6f2ff;
+            color: #333;
+            font-family: "MS PGothic", "ＭＳ Ｐゴシック", sans-serif;
+            font-size: 14px;
+        }
+
+        /* 全体 */
+        .container {
+            display: flex;
+            width: 950px;
+            min-height: 100vh;
+            margin: 0 auto;
+            background: white;
+            border-left: 1px solid #777;
+            border-right: 1px solid #777;
+        }
+
+        /* 左メニュー */
+        .menu {
+            width: 180px;
+            flex-shrink: 0;
+            background: #dcecff;
+            border-right: 2px solid #888;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .menu-title {
+            background: #336699;
+            color: white;
+            padding: 6px;
+            font-weight: bold;
+            text-align: center;
+            border: 1px solid #224466;
+            margin-bottom: 8px;
+        }
+
+        .menu a {
+            display: block;
+            padding: 6px 8px;
+            color: #0000cc;
+            text-decoration: underline;
+            border-bottom: 1px dotted #888;
+        }
+
+        .menu a:hover {
+            background: #ffffcc;
+            color: red;
+        }
+
+        /* 右側 */
+        .main {
+            flex: 1;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        /* ヘッダー */
+        .header {
+            background: #003366;
+            color: white;
+            padding: 12px;
+            border: 3px double white;
+            outline: 1px solid #003366;
+            margin-bottom: 15px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .subtitle {
+            font-size: 12px;
+            margin-top: 5px;
+        }
+
+        /* 見出し */
+        h2 {
+            font-size: 18px;
+            color: #003366;
+            background: #dcecff;
+            border-left: 6px solid #336699;
+            padding: 5px;
+        }
+
+        /* 更新情報 */
+        .news {
+            border: 1px solid #888;
+            background: #f8f8f8;
+            padding: 8px;
+        }
+
+        .news dt {
+            float: left;
+            width: 100px;
+            font-weight: bold;
+        }
+
+        .news dd {
+            margin-left: 110px;
+            margin-bottom: 5px;
+        }
+
+        /* フッター */
+        .footer {
+            margin-top: 30px;
+            padding: 10px;
+            border-top: 1px solid #888;
+            text-align: center;
+            font-size: 11px;
+            color: #666;
+        }
+
+        .counter {
+            display: inline-block;
+            background: #000;
+            color: #00ff00;
+            font-family: monospace;
+            padding: 3px 7px;
+            letter-spacing: 2px;
+        }
